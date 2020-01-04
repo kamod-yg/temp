@@ -17,7 +17,7 @@ $video_url = 'https://www.youtube.com/watch?v=h5Uh58Z8sRI';
  // echo $api_url;
  // die;
  $data = json_decode(file_get_contents($api_url));
- // echo $data;
+ // echo $data;jj
  // die;
  echo '<strong>Title:<strong>'.$data->items[0]->snippet->title.'<br/>';
  echo '<strong>Published At:<strong>'.$data->items[0]->snippet->publishedAt.'<br/>';
